@@ -1,10 +1,12 @@
 //Take the input
 
+// take the first operand
+const number1 = parseFloat(prompt("Enter first number: "));
+
 // take the operator
 const operator = prompt("Enter operator ( either +, -, * or / ): ");
 
-// take the operand
-const number1 = parseFloat(prompt("Enter first number: "));
+//take the second operand
 const number2 = parseFloat(prompt("Enter second number: "));
 
 let result;
